@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/pieces.css">
+    <title>Learn Chess | Pieces</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="header">
+        <div class="menu" id="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        Learn Chess
+    </div>
+    
+    <div class="main">
+        
+        <!-- Side nav -->
+        <div class="nav hidden" id="nav">
+            <div class="links">
+                
+                <div class="icon">
+                    <i class="fa-solid fa-chess-pawn"></i>
+                </div>
+                
+                <a href="introduction.html" class="link">
+                    Introduction
+                </a>
+                
+                <a href="pieces.html" class="link">
+                    Pieces
+                </a>
+                
+                <a href="advanced_moves.html" class="link">
+                    Advanced Moves
+                </a>
+                
+                <a href="checkmate.html" class="link">
+                    Checkmate
+                </a>
+
+                <a href="learn_chess.html" class="link">
+                    Learn Chess
+                </a>
+            </div>
+            
+            <div class="glass" id="glass"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="pieces">
+            
+            <!-- Pawn -->
+            <div class="piece">
+                <div class="piece-name">
+                    The Pawn
+                </div>
+                
+                <p class="meta">
+                    <img src="../images/pawns.png" alt="Pawn">
+                    The pawn is the least powerful piece and is worth one point. If it is a pawn's first move, it can move forward one or two squares. If a pawn has already moved, then it can move forward just one square at a time. It attacks each square diagonally to the left or right. Pawns can only move forward, and cannot move backwards. When a pawn reaches the other side of the board, it can be promoted to a queen, rook, bishop, or knight. Pawns are the only pieces that can be captured en passant.            
+                </p>
+            </div>
+            
+            <!-- Rook -->
+            <div class="piece">
+                <div class="piece-name">The Rook</div>
+                
+                <p class="meta">
+                    <img src="../images/rooks.png" alt="Rook">
+                    The rook is the second least powerful piece and is worth five points. It can move any number of squares forward, backward, or sideways. It cannot move diagonally. It attacks (or captures) each square in the same row or column as the rook. Rooks are the only pieces that can castle. An easy way to remember how a rook can move is that it moves like a "+" sign.
+                </p>
+            </div>
+            
+            <!-- Knight -->
+            <div class="piece">
+                <div class="piece-name">The Knight</div>
+                
+                <p class="meta">
+                    <img src="../images/knights.png" alt="Knight">
+                    The knight is worth three points. It moves in an L shape. It can move two squares forward, backward, or sideways, and then one square to the left or right. It can also move two squares to the left or right, and then one square forward, backward, or sideways. It attacks (or captures) each square that the knight can move to. Knights are the only pieces that can jump over other pieces.
+                </p>
+            </div>
+            
+            <!-- Bishop -->
+            <div class="piece">
+                <div class="piece-name">The Bishop</div>
+                
+                <p class="meta">
+                    <img src="../images/bishops.png" alt="Bishop">
+                    The bishop is worth three points. It can move any number of squares diagonally. It cannot move forward, backward, or sideways. It attacks (or captures) each square in the same diagonal as the bishop.
+                </p>
+            </div>
+            
+            <!-- Queen -->
+            <div class="piece">
+                <div class="piece-name">The Queen</div>
+                
+                <p class="meta">
+                    <img src="../images/queens.png" alt="Queen">
+                    The queen is the most powerful piece and is worth nine points. It can move any number of squares forward, backward, sideways, or diagonally. It attacks (or captures) each square in the same row, column, or diagonal as the queen. An easy way to remember how a queen can move is that it moves like a rook and a bishop combined!
+                </p>
+            </div>
+            
+            <!-- King -->
+            <div class="piece">
+                <div class="piece-name">The King</div>
+                
+                <p class="meta">
+                    <img src="../images/kings.png" alt="King">
+                    The king is worth infinity points. It can move one square forward, backward, sideways, or diagonally. It attacks (or captures) each square that the king can move to. The king is the only piece that can be checkmated.
+                </p>
+            </div>
+        </div>
+        
+        <script src="../scripts/script.js"></script>
+    </body>
+    </html>

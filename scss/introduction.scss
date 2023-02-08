@@ -1,0 +1,35 @@
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        
+        .description {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            .title {
+                text-align: center;
+                width: 200px;
+                color: #000;
+                border-bottom: 2px solid black;
+                font-family: 'Fasthand', cursive;
+                font-size: 30px;
+                margin-top: 20px;
+            }
+            
+            p {
+                font-family: 'Ubuntu', sans-serif;
+                padding: 40px;
+                margin: 20px;
+                color: white;
+                
+                img {
+                    margin: 0 20px 20px 0;
+                }
+                
+            }
+        }
+    }

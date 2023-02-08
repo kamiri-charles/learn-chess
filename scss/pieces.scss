@@ -1,0 +1,44 @@
+.pieces {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+    
+    .piece {
+        width: 40%;
+        background: black;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease;
+
+        /* Take up 90vw of with on smaller screen sizer */
+        @media (max-width: 780px) {
+            width: 90vw;
+        }
+        
+        .piece-name {
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: 'Fasthand', cursive;
+            margin: 10px 0;
+            text-decoration: underline;
+        }
+        
+        .meta {        
+            display: flex;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 10px;
+            margin: 20px;
+            color: whitesmoke;
+            
+            img {
+                margin: 0 20px 20px 0;
+                float: left;
+                max-width: 200px;
+                max-height: 400px;
+            }
+        }
+    }
+}
