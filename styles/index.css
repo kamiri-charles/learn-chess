@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .main {
   display: flex;
   flex-direction: column;
@@ -23,3 +24,28 @@
       color: white; }
       .main .description p img {
         margin: 0 20px 20px 0; }
+        footer {
+          position: fixed;
+          bottom: 10px;
+          background-color: #0E2431;
+          color: hsl(0, 0%, 100%);
+          height: 40px;
+          width: 100%;
+        }
+
+        .footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .footer__label {
+          font-weight: 400;
+          font-size: 40px;
+          font-family: 'Pacifico', cursive;
+
+        }
+
+        .footer__rights {
+          margin-right: 30px;
+        }
